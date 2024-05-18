@@ -1,22 +1,22 @@
 {
-  "name": "create-node-app",
+  "name": "bynat",
   "version": "1.0.0",
   "description": "A CLI tool to create a Node.JS application with a pre-configured template",
-  "main": "dist/bin/create-node-app.js",
+  "main": "dist/bin/bynat.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node dist/bin/create-node-app.js"
+    "start": "node dist/bin/bynat.js"
   },
   "bin": {
-    "create-node-app": "./dist/bin/create-node-app.js"
+    "bynat": "./dist/bin/bynat.js"
   },
   "keywords": [
     "CLI",
     "NodeJs"
   ],
   "author": "Faiz Mohd Askari",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "4.0.0",
     "commander": "^12.0.0",
